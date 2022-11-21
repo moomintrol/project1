@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <h1>Проект 1</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi hic quae veniam, voluptatem maxime placeat quibusdam cumque laboriosam magni alias corporis officia voluptatum totam et architecto voluptates id beatae.</p>
+    <div class="container mt-3 mb-3" id="container">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 row-cols-l-6 g-4" id="cards"></div>
+    </div>
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div class="modal__close">&times;</div>
+            <img class="modal__img" id="modalImg" src="" alt="" />
+            <div class="modal__context"></div>
+        </div>
+    </div>
 </body>
+
 </html>
